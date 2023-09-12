@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="#9F020A40"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:textColor="#F4EFEF"
+        android:text="Legend Blogs List View"
+        android:textSize="30sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/anh1"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Nguyen Thi Linh"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Ngay sinh"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Que quan"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:src="@drawable/anh1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Nguyen Thi Linh"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Ngay sinh"
+                    android:layout_weight="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Que quan"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:src="@drawable/anh1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Nguyen Thi Linh"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Ngay sinh"
+                    android:layout_weight="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Que quan"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:src="@drawable/anh1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Nguyen Thi Linh"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Ngay sinh"
+                    android:layout_weight="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Que quan"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

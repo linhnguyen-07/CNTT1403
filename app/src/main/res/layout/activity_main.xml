@@ -6,86 +6,99 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#9C27B0"
-            android:textColor="@color/red"
-            android:paddingLeft="0dp"
-            android:gravity="center"
-            android:src="@drawable/anh1"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:textSize="80sp" />
-        <ImageView
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
+        >
 
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#9C27B0"
-            android:textColor="@color/red"
-            android:paddingLeft="0dp"
-            android:gravity="center"
-            android:src="@drawable/anh1"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
-            android:textSize="80sp" />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#9C27B0"
-            android:textColor="@color/red"
-            android:paddingLeft="0dp"
-            android:gravity="center"
-            android:src="@drawable/anh1"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:textSize="80sp" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#9C27B0"
-            android:textColor="@color/red"
-            android:paddingLeft="0dp"
-            android:gravity="center"
-            android:src="@drawable/anh1"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:textSize="80sp" />
-        <ImageView
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#9FECAFE2"
+                android:textColor="@color/red"
+                android:paddingLeft="0dp"
+                android:gravity="center"
+                android:src="@drawable/anh1"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:textSize="80sp" />
+            <ImageView
 
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#9C27B0"
-            android:textColor="@color/red"
-            android:paddingLeft="0dp"
-            android:gravity="center"
-            android:src="@drawable/anh1"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"
-            android:textSize="80sp" />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#9C27B0"
-            android:textColor="@color/red"
-            android:paddingLeft="0dp"
-            android:gravity="center"
-            android:src="@drawable/anh1"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:textSize="80sp" />
-    </LinearLayout>
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#9FECAFE2"
+                android:textColor="@color/red"
+                android:paddingLeft="0dp"
+                android:gravity="center"
+                android:src="@drawable/anh1"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:textSize="80sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#9FECAFE2"
+                android:textColor="@color/red"
+                android:paddingLeft="0dp"
+                android:gravity="center"
+                android:src="@drawable/anh1"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:textSize="80sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#9FECAFE2"
+                android:textColor="@color/red"
+                android:paddingLeft="0dp"
+                android:gravity="center"
+                android:src="@drawable/anh1"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:textSize="80sp" />
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#9FECAFE2"
+                android:textColor="@color/red"
+                android:paddingLeft="0dp"
+                android:gravity="center"
+                android:src="@drawable/anh1"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:textSize="80sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#9FECAFE2"
+                android:textColor="@color/red"
+                android:paddingLeft="0dp"
+                android:gravity="center"
+                android:src="@drawable/anh1"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:textSize="80sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:orientation="horizontal"
