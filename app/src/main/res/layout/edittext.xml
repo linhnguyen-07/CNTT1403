@@ -13,7 +13,7 @@
         android:background="#9F020A40"
         android:paddingLeft="10dp"
         android:gravity="center"
-        android:textColor="#F4EFEF"
+        android:textColor="#FAF6F6"
         android:text="Edit TextIcon"
         android:textSize="30sp"
         />
@@ -50,6 +50,4 @@
         android:paddingLeft="30dp"
         android:drawableLeft="@drawable/baseline_local_phone_24"
         />
-
-
 </LinearLayout>
