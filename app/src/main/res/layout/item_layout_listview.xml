@@ -46,7 +46,9 @@
         android:text="Text View"
         android:textColor="#808080"
         android:textSize="40sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+
+        />
     </LinearLayout>
    </LinearLayout>
 </RelativeLayout>
